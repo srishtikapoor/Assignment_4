@@ -1,0 +1,192 @@
+<html> 
+    <head>
+
+    </head>
+
+    <body>
+            <div class="topnav">  
+                 <header>                                 <!--for navigating icons on web page-->    
+                    <a href="www.google.com">New </a> 
+                    <a href="www.bing.com">Women</a> 		   
+                    <a href="www.kelltontech.com">Men</a> 
+                    <a href="www.TOI.com">Home</a>
+                    <a href="www.Assignment_2">Stores</a>
+                    <a href="www.Assignment_2">Gift Shops</a>
+                    <a href="www.Assignment_2">Journal</a>
+                    <input type="text" placeholder="Search ">
+                 </header>
+            </div>
+        
+            <img src="img1.jpg">
+            <div class="flexcontainer">
+
+
+                <div class="scroll">
+                        <div class="ex1">
+                                Categories
+                                <ul>
+                                    <li><a href="#home">Jeans</a></li>
+                                    <li><a href="#news">Jeggings</a></li>
+                                    <li><a href="#contact">Trousers</a></li>
+                                    <li><a href="#about">tops</a></li>
+                                    <li><a href="#home">bottoms</a></li>
+                                    <li><a href="#news">kurtas</a></li>
+                                    <li><a href="#contact">sarees</a></li>
+                                    <li><a href="#about">western</a></li>
+                                </ul>     
+                        </div>
+
+                </div>
+                <div class="card">
+                    <div class="products">
+                            <img src="img5.png">
+                             <img src="img3.png">
+                            <img src="img6.jpg">
+                    </div>
+                    <div class="products">
+                            <img src="img4.png">
+                             <img src="img7.png">
+                            <img src="img8.png">
+                    </div>
+                    <div class="products">
+                            <img src="img9.png">
+                             <img src="img10.png">
+                            <img src="img11.png">
+                    </div>
+                
+                </div>
+            </div>
+            <div>
+                    <footer class="foot">           <!--class for footer-->
+                        <h5>
+                            Contact us
+                        </h5>
+                            <p>
+                                @sudoku style solutions private limited<br> 
+                                www.sudoku.styles.com
+                                Block P-2203, Shalmar City Centre
+                                <br>Chandigarh
+                            </p>
+    
+                    </footer>
+                </div>
+        
+    </body>
+
+    <style>
+        .topnav
+        {
+            background-color:bisque     ;                <!-- for home, products etc icons on screen-->
+			padding-left: 80px;
+			padding-top: 20px;
+			padding-bottom: 12px;
+			border-right: 10px;
+         }
+         .topnav a
+         {
+             padding: 10px 50px;
+             color: black;
+             text-decoration:none;
+             font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            
+         }
+         img
+         {
+            width: 100%;
+            height:100%;
+           
+         }
+         .topnav input[type=text] {     
+	        float: right;                     <!-- for search box-->
+	        padding: 6px;
+	        border: all;
+	        margin-top: 1px;
+	        margin-right: 16px;
+	        font-size: 14px;
+	    }
+
+        /*.card
+        {
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+            max-width: 150px;
+            height: 200px;
+            margin-left: 100px;
+            margin-top: 20px;
+            text-align: bottom;
+            font-family: arial;
+            display: flex;
+            
+}*/
+     h5
+        {
+            text-align: center;
+        }
+        .card button
+        {
+            border: none;
+            outline: 0;
+            padding: 12px;
+            color: white;
+            background-color: #000;
+            text-align: center;
+            cursor: pointer;
+            width: 100%;
+            font-size: 18px;
+        
+        }
+    
+    .box 
+    {
+        width: 20%;
+        height:30px;
+        margin-right:100px;
+        box-sizing:border-box;
+        font-size :15px;
+    }
+    .box a
+     {
+    list-style-type: none;
+        margin-right:110px;
+        padding:0;
+       text-decoration: none;
+                }
+    .flexcontainer
+    {
+        display:flex;
+        flex-direction: row;
+    }
+
+div.ex1 {
+  background-color: lightblue;
+  width: 200px;
+  height: 200px;
+  overflow: scroll;
+  margin-bottom:100px;
+}
+.scroll
+{
+    width:25%;
+    height:400px;
+}
+
+.card{
+    width:25%;
+    height:400px;
+}
+.products
+{
+    display: flex;
+}
+.foot
+	{
+		position: fixed;
+	    background-color: lightgrey;
+	    left: 0;
+	    bottom:0;
+	    width:100%;
+	    text-align: center;
+        
+	}
+    </style>
+
+</html>
